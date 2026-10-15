@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div id="boxx"></div>
+    <textarea oninput="inputt()" onclick="timer()" id="input" disabled></textarea>
+    <br><br>
+    <button onclick="start()" id="Start">Start</button>
+    <button id="Submit" onclick="submit()"  disabled>Submit</button>
+    </center>
+   <div id="timer_d"><span id="min"></span><span id="d">:</span><span id="sec"></span></div> 
+    <div id="summary">
+        <h1 id="t">Total time:-</h1>
+        <h1 id="s">Total Seconds:-</h1>
+        <h1 id="speed">Speed:-</h1>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>
